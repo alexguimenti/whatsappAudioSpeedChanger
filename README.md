@@ -33,7 +33,7 @@ Whatsapp Audio Speed Changer
 
 This app features all the latest tools and practices in web and mobile development!
 
-- 💻 **Javascipt** — The good and old pure JavaScript
+- 💻 **Javascript** — The good and old pure (Vanilla) JavaScript!
 
 ## Getting started
 
