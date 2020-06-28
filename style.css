@@ -1,7 +1,25 @@
-;twoTimesButton {
+.speedContainer {
+  margin: 0 20px;
+}
+
+.speedDisplay {
+  width: 35px;
+  max-width: 35px;
+  display: inline-block;
   color: gray;
   font-size: 1rem;
   font-weight: bold;
   background-color: transparent;
   border: none;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.speedButton {
+  color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  margin: 0 5px;
 }
