@@ -8,7 +8,7 @@ Whatsapp Audio Speed Changer
 <br>
 </h1>
 <div align="center">
-<p align="center">A Google Chrome Extension to change audio speed on Whatsapp Web .</p>
+<p align="center">A Google Chrome Extension to change audio speed on Web Whatsapp .</p>
 <br>
   <img src="https://i.ibb.co/XbYn3fW/extension.jpg" alt="Whatsapp Audio Speed Changer" width="800">
 <br>
