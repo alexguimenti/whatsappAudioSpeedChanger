@@ -39,5 +39,6 @@ This app features all the latest tools and practices in web and mobile developme
 
 1. Download this repository using `https://github.com/alexguimenti/whatsappAudioSpeedChanger/archive/master.zip`
 2. Acess `chrome://extensions/` and enable Developer Mode (more informations on how to enable developer mode: https://developer.chrome.com/extensions/faq).
-3. Upload the extension folder by clickin on "Load unpacked" and pointing to the extensio nfolder directions.
+3. Upload the extension folder by clicking on "Load unpacked" and pointing to the extension folder direction.
 4. If unable, enable the extension.
+5. The buttons should appear on the browser as shown on the picture above.
