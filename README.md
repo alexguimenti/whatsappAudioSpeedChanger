@@ -1,22 +1,26 @@
 <h1 align="center">
-<br>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/WhatsApp_logo.svg/2000px-WhatsApp_logo.svg.png" alt="Whatsapp" width="120">
-<br>
+
 <br>
 Whatsapp Audio Speed Changer
 <br>
 <br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/WhatsApp_logo.svg/2000px-WhatsApp_logo.svg.png" alt="Whatsapp" width="120">
+<br>
+</h1>
+<div align="center">
 <br>
   <img src="https://i.ibb.co/XbYn3fW/extension.jpg" alt="Whatsapp Audio Speed Changer" width="800">
 <br>
 <br>
-<br>
-</h1>
-
-
-
-
 <p align="center">A Google Chrome Extension to change audio speed on Whatsapp Web .</p>
+<br>
+</div>
+<hr />
+
+
+
+
+
 
 [//]: # "Add your gifs/images here:"
 
