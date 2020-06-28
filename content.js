@@ -1,7 +1,9 @@
+
+
 const waitingForHeader = setInterval(() => {
   const header = document.querySelector('._1QUKR');
   if (header) {
-    let speed = 1.00;
+    var speed = 1.00;
     clearInterval(waitingForHeader)
 
     const speedContainer = document.createElement("div");
@@ -24,34 +26,36 @@ const waitingForHeader = setInterval(() => {
     speedContainer.appendChild(plusButton)
 
     minusButton.addEventListener("click", () => {
-      console.log("minus");
-      speed -= 0.25;
-      speedDisplay.innerHTML = speed.toFixed(2);
-      let audios = document.querySelectorAll("audio");
-      audios.forEach(audio => {
-        audio.playbackRate = speed;
-      })
+      decreaseSpeed()
     })
 
     plusButton.addEventListener("click", () => {
-      console.log("plus")
-      speed += 0.25;
+      increaseSpeed()
+    })
+
+    function decreaseSpeed() {
+      speed = speed - 0.25;
       speedDisplay.innerHTML = speed.toFixed(2);
+      updateSpeed(speed);
+    }
+
+    function increaseSpeed() {
+      speed = speed + 0.25;
+      speedDisplay.innerHTML = speed.toFixed(2);
+      updateSpeed(speed);
+    }
+
+    function updateSpeed(speed) {
       let audios = document.querySelectorAll("audio");
       audios.forEach(audio => {
         audio.playbackRate = speed;
       })
-    })
-
-    // button.addEventListener("click", () => {
-    //   const audios = document.querySelectorAll("audio");
-    //   audios.forEach(audio => {
-    //     audio.playbackRate = 2;
-    //   })
-    // })
+    }
 
   }
+
 }, 1000)
+
 
 
 
