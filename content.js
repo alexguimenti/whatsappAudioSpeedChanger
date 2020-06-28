@@ -1,5 +1,3 @@
-
-
 const waitingForHeader = setInterval(() => {
   const header = document.querySelector('._1QUKR');
   if (header) {
@@ -34,9 +32,11 @@ const waitingForHeader = setInterval(() => {
     })
 
     function decreaseSpeed() {
-      speed = speed - 0.25;
-      speedDisplay.innerHTML = speed.toFixed(2);
-      updateSpeed(speed);
+      if (speed > 0) {
+        speed = speed - 0.25;
+        speedDisplay.innerHTML = speed.toFixed(2);
+        updateSpeed(speed);
+      }
     }
 
     function increaseSpeed() {
